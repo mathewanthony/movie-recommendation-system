@@ -1,9 +1,21 @@
 
 Movie Recommendation System
 -
+
 Introduction
 
 This repository contains code for building a movie recommendation system using Python. The recommendation system utilizes various techniques such as content-based filtering and collaborative filtering to provide personalized movie recommendations to users.
+
+Types of Recommender System
+-
+
+
+Demographic Filtering - Demographic filtering provides each user with generic recommendations based on the popularity and/or genre of films. Users that share similar demographic characteristics are recommended the same films by the system. Since every user is unique, this method is seen as excessively simplistic.
+
+Content-Based Filtering - Content-based filtering suggests similar items based on a particular item. This system uses item metadata, such as genre, director, description, actors, etc. for movies, to make these recommendations. The general idea behind these recommender systems is that if a person liked a particular item, he or she will also like an item that is similar to it.
+
+Collaborative Filtering - Collaborative filtering matches persons with similar interests and provides recommendations based on this matching. Collaborative filters do not require item metadata like its content-based counterparts.
+
 
 Installation
 -
